@@ -1,0 +1,44 @@
+.link-list {
+    padding-right: 20em;
+    padding-left: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .link-list-row {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+  }
+  
+  .link-card-wrapper {
+    margin: 0.5em;
+  }
+  
+  .add-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    border: 2px dashed #00f;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .add-card-content {
+    text-align: center;
+  }
+  
+  .add-card-icon {
+    font-size: 3em;
+    color: #00f;
+  }
+  
+  .add-card-text {
+    font-size: 1.2em;
+    color: #00f;
+  }

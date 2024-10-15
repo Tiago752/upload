@@ -1,0 +1,57 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup {
+    background-color: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    color: black; /* Setze die Schriftfarbe auf schwarz */
+    width: 300px; /* Feste Breite */
+  }
+  
+  .popup h2 {
+    color: black; /* Setze die Schriftfarbe auf schwarz */
+  }
+  
+  .popup input {
+    margin: 1em 0;
+    padding: 0.5em;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .popup button {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #555;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 0.5em;
+    position: absolute;
+    bottom: -0.5em; /* Positioniert die Fehlermeldung unterhalb des Popups */
+    left: 50%;
+    transform: translateX(-50%);
+  }
